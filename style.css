@@ -182,3 +182,52 @@ body {
 .icon-pink {
     color: #ff0055 !important;
 }
+/* --- Founder Kartı Tasarım Kodları --- */
+.founder-kart {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 20px !important;
+    background-color: #0d1117 !important;
+    border: 2px solid #00cbd6 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 0 15px rgba(0, 203, 214, 0.4) !important;
+    box-sizing: border-box !important;
+    
+    /* Kartı alt alta dizilimde tam ortalamaya zorlayan sihirli ayar: */
+    margin: 30px auto 10px auto !important; 
+    width: 100% !important;
+    max-width: 340px !important;
+}
+
+.founder-unvan {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    color: #00cbd6 !important;
+    margin-bottom: 15px !important;
+}
+
+.founder-resim-alani {
+    width: 140px !important;
+    height: 140px !important;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    border: 3px solid #ffffff !important;
+    margin-bottom: 15px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.founder-resim {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+.founder-nick {
+    font-size: 22px !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+}
