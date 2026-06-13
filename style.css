@@ -182,21 +182,23 @@ body {
 .icon-pink {
     color: #ff0055 !important;
 }
-/* Genel Kart Kutusu - Ortalanmış Hali */
+/* Genel Kart Kutusu - Kesin Ortalamalı Hali */
 .founder-kart {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 30px auto; /* Yukarı ve aşağı boşluk verir, sağdan soldan tam ortalar */
-    padding: 20px;
-    width: 85%; /* Kurallar butonuyla aynı genişlikte olması için */
-    max-width: 340px; 
-    background-color: #0d1117; 
-    border: 2px solid #00cbd6; 
-    border-radius: 20px; 
-    box-shadow: 0 0 15px rgba(0, 203, 214, 0.4);
-    clear: both; /* Sağdaki veya soldaki kaymaları tamamen sıfırlar */
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 30px auto !important; /* Tarayıcıyı sağdan soldan eşitlemeye zorlar */
+    padding: 20px !important;
+    width: 85% !important; 
+    max-width: 340px !important; 
+    background-color: #0d1117 !important; 
+    border: 2px solid #00cbd6 !important; 
+    border-radius: 20px !important; 
+    box-shadow: 0 0 15px rgba(0, 203, 214, 0.4) !important;
+    clear: both !important; /* Yukarıdaki butonların kayma etkisini tamamen sıfırlar */
+}
+
 }
 
 /* Üstteki Founder Yazısı */
