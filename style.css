@@ -182,3 +182,64 @@ body {
 .icon-pink {
     color: #ff0055 !important;
 }
+/* --- Founder Kartı Tasarım Kodları --- */
+
+.kart-ortala-kapsayici {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    clear: both !important;
+    margin-top: 40px !important;
+    margin-bottom: 20px !important;
+}
+
+.founder-kart {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 20px !important;
+    width: 85% !important; 
+    max-width: 280px !important; 
+    background-color: #0d1117 !important; 
+    border: 2px solid #00cbd6 !important; 
+    border-radius: 20px !important; 
+    box-shadow: 0 0 15px rgba(0, 203, 214, 0.4) !important;
+}
+
+.founder-unvan {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    color: #00cbd6 !important;
+    margin-bottom: 15px !important;
+    font-family: sans-serif !important;
+}
+
+.founder-resim-alani {
+    width: 140px !important;
+    height: 140px !important;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+    border: 3px solid #ffffff !important;
+    margin-bottom: 15px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* Sitenin genel img kodlarının bu resmi büyütmesini engeller */
+.founder-resim {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    max-width: 100% !important;
+    display: block !important;
+}
+
+.founder-nick {
+    font-size: 22px !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+    font-family: sans-serif !important;
+}
