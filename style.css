@@ -237,3 +237,12 @@ body {
     color: #ffffff;
     font-family: sans-serif;
 }
+/* Kutuyu sayfada tam aşağıya indiren ve ortalayan sihirli kod */
+.kart-ortala-kapsayici {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    clear: both !important;
+    margin-top: 20px !important;
+}
