@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#05040a">
+<title>KARA İNCİ - Klan Bilgi Paneli</title>
+<link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+<div class="container">
+
+  <header class="clan-header">
+    <div class="pearl">𓊝</div>
+    <h1 class="clan-title">⚡ KARA İNCİ ⚡</h1>
+    <p class="clan-status">Sınırları Zorlayanların Dünyası</p>
+  </header>
+
+  <section class="stats" id="stats"></section>
+
+  <section class="accordion">
+    <div class="acc">
+      <button class="acc-h" aria-expanded="false"><span>🔰 GENEL KURALLAR</span><span class="ic">+</span></button>
+      <div class="acc-b"><div class="acc-i">
+        <p>𓊝 Küfür, argo, ırkçılık, siyaset, aşağılayıcı cümleler kullanmak yasaktır.</p>
+        <p>𓊝 Görev ücreti 500 🪙</p>
+        <p>𓊝 Haftalık 3k XP kasamayan klandan atılır.</p>
+      </div></div>
+    </div>
+
+    <div class="acc">
+      <button class="acc-h" aria-expanded="false"><span>🔥 ÖZEL KURALLAR</span><span class="ic">+</span></button>
+      <div class="acc-b"><div class="acc-i">
+        <p>𓊝 Görevlerde en çok XP kasana bir sonraki görev ücretsizdir.</p>
+        <p>𓊝 Haftalık en çok XP kasana ücretsiz görev hediyedir.</p>
+      </div></div>
+    </div>
+
+    <div class="acc pink">
+      <button class="acc-h" aria-expanded="false"><span>🚀 XP KASMA TAKTİĞİ</span><span class="ic">+</span></button>
+      <div class="acc-b"><div class="acc-i">
+        <div class="acc sub">
+          <button class="acc-h" aria-expanded="false"><span>🏆 VİLL WİN</span><span class="ic">+</span></button>
+          <div class="acc-b"><div class="acc-i">
+            <p>Özel oyunlarda İngiliz sunucusunu işaretlemen gerek. Bu sunucuda her zaman “vill win” yazan odalar bulunur.</p>
+            <p>Kurtlar kendi aşıklarını öldürerek kendilerini de öldürür. Kalan diğer kurt ise sabah asılır veya vurulur, böylece 30-90 saniyede oyun biter. Yavru kurt varsa yavru kurdun aşığı asılır ve yavru kurt da yanına diğer kurdun aşığını alarak ilk gecede oyunu köylülere kazandırır.</p>
+          </div></div>
+        </div>
+      </div></div>
+    </div>
+
+    <div class="acc">
+      <button class="acc-h" aria-expanded="false"><span>🚪 AYRILANLAR</span><span class="ic">+</span></button>
+      <div class="acc-b"><div class="acc-i" id="left"><p>Yükleniyor…</p></div></div>
+    </div>
+  </section>
+
+  <section class="xp card">
+    <h2>📊 XP Durumu</h2>
+    <div class="seg" id="seg">
+      <button data-k="w" class="on">Haftalık</button><button data-k="d">Bugün</button><button data-k="y">Dün</button><button data-k="m">Aylık</button><button data-k="xp">Toplam</button>
+    </div>
+    <div class="chips" id="chips"></div>
+    <input type="search" id="q" placeholder="Oyuncu ara…" autocomplete="off">
+    <div id="list"></div>
+    <p class="note" id="upd"></p>
+  </section>
+
+</div>
+
+<footer class="founder">
+  <div><div class="f-role">Founder</div><div class="f-name">TheiaRyu</div></div>
+  <div class="f-img"><img src="karakter.png" alt="Founder" onerror="this.parentNode.style.display='none'"></div>
+</footer>
+
+<script src="script.js?v=2"></script>
+</body>
+</html>
