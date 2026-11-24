@@ -173,7 +173,7 @@ var CFG = { weekMin: 3000, excused: [], staleHours: 3 };
 /* =================== */
 var $ = function (i) { return document.getElementById(i); };
 var f = function (n) { return Number(n || 0).toLocaleString("tr-TR"); };
-var esc = function (s) { return String(s).replace(/[&<>"']/g, function (c) { return {"&":"&","<":"<",">":">",'"':""","'":"'"}[c]; }); };
+var esc = function (s) { return String(s).replace(/[&<>"']/g, function (c) { return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); };
 var D = null, key = "w", flt = "all";
 
 /* ===== AKORDEON (en üstte: başka hata olsa bile çalışır) ===== */
