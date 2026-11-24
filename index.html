@@ -446,21 +446,7 @@ var GIVEAWAY = {
     return "<p><b>🏆 Geçmiş kazananlar</b></p>" + w.slice().reverse().map(function (x) {
       return "<p>" + esc(x.name) + " · " + esc(x.prize) + " · " + esc(x.date) + "</p>";
     }).join("");
-  }
-  function view() {
-    var g = GIVEAWAY, p = pool();
-    if (!g.active) { box.innerHTML = "<p>Şu an aktif çekiliş yok.</p>" + wins(); return; }
-    var h = "<p><b>" + esc(g.title) + "</b></p><p>🎁 Ödül: " + esc(g.prize) + "<br>⏰ Bitiş: " + esc(g.end) +
-      "<br>📋 Şart: " + (g.rule === "all" ? "Tüm klan üyeleri" : "Haftalık " + f(CFG.weekMin) + " XP hedefini yapanlar") +
-      "<br>🎟️ Şu an katılabilen: " + (D ? p.length : "…") + " kişi</p>";
-    if (admin) {
-      h += '<div class="gv-stage' + (last ? " won" : "") + '" id="gv-stage">' + (last ? "🏆 " + esc(last) : "🎁") + "</div>" +
-        '<button class="chip" id="gv-go" style="width:100%;padding:11px">🎲 Çekilişi Başlat</button>';
-    } else {
-      h += "<p>Çekiliş sonucu burada duyurulur.</p>";
-    }
-    box.innerHTML = h + wins();
-  }
+
   function draw() {
     var p = pool();
     if (!p.length || spinning) return;
